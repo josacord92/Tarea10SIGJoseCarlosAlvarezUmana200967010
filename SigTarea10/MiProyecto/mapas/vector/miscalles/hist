@@ -1,0 +1,31 @@
+COMMAND: v.in.ogr -o dsn="c:/SigTarea10/lineasCalles.shp" output="lineasCalles1" min_area=0.0001 snap=-1
+GISDBASE: C:/SigTarea10
+LOCATION: MiProyecto MAPSET: mapas USER: Gaby DATE: Mon May 19 00:43:01 2014
+---------------------------------------------------------------------------------
+COMMAND: v.clean input="lineasCalles1" output="miscalles" type="point,line,boundary,centroid,area" tool="break"
+GISDBASE: C:/SigTarea10
+LOCATION: MiProyecto MAPSET: mapas USER: Gaby DATE: Mon May 19 01:35:51 2014
+---------------------------------------------------------------------------------
+COMMAND: v.db.addcol "miscalles" "col=adelante double, atras double, velocidad double, largo double"
+GISDBASE: C:/SigTarea10
+LOCATION: MiProyecto MAPSET: mapas USER: Gaby DATE: Mon May 19 01:36:43 2014
+---------------------------------------------------------------------------------
+COMMAND: v.db.update "miscalles" "col=velocidad" "val=40" "where=cat=7 or cat=8 or cat=9 or cat=10 or cat=11"
+GISDBASE: C:/SigTarea10
+LOCATION: MiProyecto MAPSET: mapas USER: Gaby DATE: Mon May 19 01:37:55 2014
+---------------------------------------------------------------------------------
+COMMAND: v.db.update "miscalles" "col=velocidad" "val=25" "where=cat=1 or cat=2 or cat=3 or cat=4 or cat5 or cat=6"
+GISDBASE: C:/SigTarea10
+LOCATION: MiProyecto MAPSET: mapas USER: Gaby DATE: Mon May 19 01:39:11 2014
+---------------------------------------------------------------------------------
+COMMAND: v.db.update "miscalles" "col=velocidad" "val=25" "where=cat=1 or cat=2 or cat=3 or cat=4 or cat=5 or cat=6"
+GISDBASE: C:/SigTarea10
+LOCATION: MiProyecto MAPSET: mapas USER: Gaby DATE: Mon May 19 01:40:54 2014
+---------------------------------------------------------------------------------
+COMMAND: v.db.update "map=miscalles" "col=atras" "val=99999"
+GISDBASE: C:/SigTarea10
+LOCATION: MiProyecto MAPSET: mapas USER: Gaby DATE: Mon May 19 01:41:37 2014
+---------------------------------------------------------------------------------
+COMMAND: v.db.update "miscalles" "col=adelante" "qcol=largo/velocidad"
+GISDBASE: C:/SigTarea10
+LOCATION: MiProyecto MAPSET: mapas USER: Gaby DATE: Mon May 19 01:42:35 2014

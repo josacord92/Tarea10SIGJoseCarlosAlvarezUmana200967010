@@ -1,0 +1,3 @@
+COMMAND: v.net.alloc input="red2" output="servicio1" type="line,boundary" alayer=1 nlayer=2 ccats="1,2"
+GISDBASE: C:/SigTarea10
+LOCATION: MiProyecto MAPSET: mapas USER: Gaby DATE: Mon May 19 01:54:13 2014

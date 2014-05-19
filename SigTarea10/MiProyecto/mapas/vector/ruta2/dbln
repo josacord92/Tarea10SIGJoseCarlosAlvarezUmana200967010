@@ -1,0 +1,1 @@
+1 ruta2 cat $GISDBASE/$LOCATION_NAME/$MAPSET/dbf/ dbf

@@ -1,0 +1,17 @@
+6 lineas verticales
+lineaV1
+5 lineas horizontales
+
+id 1 KFC
+id 2 Burguer King
+id 3 Campero
+ 4 pizza hut
+5 Mac Donald
+6 Taco Bell
+
+v.net input=lineasCalles1 red points=Restaurantes out=RedCallesRest op=connect threst=1 --overwrite
+
+norte a sur 1
+sur a norte 2
+este a oeste 3
+oeste a este 4

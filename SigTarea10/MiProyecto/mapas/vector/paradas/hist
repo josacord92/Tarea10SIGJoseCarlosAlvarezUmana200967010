@@ -1,0 +1,5 @@
+COMMAND: v.in.ascii input="restaurantes3.txt" output="paradas" format="point" skip=1 columns="cat int,x int,y int" x=2 y=3 z=0 cat=1
+GISDBASE: C:/SigTarea10
+LOCATION: MiProyecto MAPSET: mapas USER: Gaby DATE: Mon May 19 01:52:38 2014
+HEADER: (1 lines)
+cat,x,y

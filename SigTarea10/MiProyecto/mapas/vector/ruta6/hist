@@ -1,0 +1,3 @@
+COMMAND: v.net.salesman input="red2" output="ruta6" type="line,boundary" alayer=1 nlayer=2 ccats="1-6"
+GISDBASE: C:/SigTarea10
+LOCATION: MiProyecto MAPSET: mapas USER: Gaby DATE: Mon May 19 01:53:25 2014

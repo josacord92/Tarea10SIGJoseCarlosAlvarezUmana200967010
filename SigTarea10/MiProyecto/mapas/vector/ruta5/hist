@@ -1,0 +1,3 @@
+COMMAND: v.net.path input="red" output="ruta5" type="line,boundary" alayer=1 nlayer=2 file="restaurantes2.txt" afcolumn="rapidez" abcolumn="atras" dmax=1000
+GISDBASE: C:/SigTarea10
+LOCATION: MiProyecto MAPSET: mapas USER: Gaby DATE: Mon May 19 01:51:46 2014
